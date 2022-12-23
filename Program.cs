@@ -5,7 +5,7 @@ Console.Write("Введите пятизначное число: ");
 string num = Console.ReadLine();
 if (num.Length<5||num.Length>5)
 {
-   Console.WriteLine ("Число должно соджержать пять знаков");
+   Console.WriteLine ("Число должно содержать пять знаков");
 }
 else if (num[0] == num[4] && num[1] == num[3])
 {
